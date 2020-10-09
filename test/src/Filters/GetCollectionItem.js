@@ -1,5 +1,5 @@
 const test = require("ava");
-const getCollectionItem = require("../src/Filters/GetCollectionItem");
+const getCollectionItem = require("../../src/Filters/GetCollectionItem");
 
 test("getCollectionItem", (t) => {
   let first = {

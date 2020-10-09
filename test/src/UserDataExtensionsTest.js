@@ -1,5 +1,5 @@
 const test = require("ava");
-const TemplateData = require("../src/TemplateData");
+const TemplateData = require("../../src/TemplateData");
 let yaml = require("js-yaml");
 
 function injectDataExtensions(dataObj) {

@@ -3,12 +3,12 @@ const fs = require("fs-extra");
 const rimraf = require("rimraf");
 const fastglob = require("fast-glob");
 const parsePath = require("parse-filepath");
-const EleventyFiles = require("../src/EleventyFiles");
-const EleventyExtensionMap = require("../src/EleventyExtensionMap");
-const TemplateWriter = require("../src/TemplateWriter");
+const EleventyFiles = require("../../../../src/EleventyFiles");
+const EleventyExtensionMap = require("../../../../src/EleventyExtensionMap");
+const TemplateWriter = require("../../../../src/TemplateWriter");
 // Not sure why but this import up `ava` and _createTemplate 👀
 // import Template from "../src/Template";
-const eleventyConfig = require("../src/EleventyConfig");
+const eleventyConfig = require("../../../../src/EleventyConfig");
 const normalizeNewLines = require("./Util/normalizeNewLines");
 
 // TODO make sure if output is a subdir of input dir that they don’t conflict.

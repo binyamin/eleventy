@@ -1,7 +1,7 @@
 const test = require("ava");
-const Eleventy = require("../src/Eleventy");
-const EleventyWatchTargets = require("../src/EleventyWatchTargets");
-const templateConfig = require("../src/Config");
+const Eleventy = require("../../../src/Eleventy");
+const EleventyWatchTargets = require("../../../src/EleventyWatchTargets");
+const templateConfig = require("../../../src/Config");
 
 const config = templateConfig.getConfig();
 

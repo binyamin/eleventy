@@ -1,5 +1,5 @@
 const test = require("ava");
-const pluralize = require("../src/Util/Pluralize");
+const pluralize = require("../../src/Util/Pluralize");
 
 test("Pluralize", (t) => {
   t.is(pluralize(0, "test", "tests"), "tests");

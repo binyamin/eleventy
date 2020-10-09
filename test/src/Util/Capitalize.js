@@ -1,5 +1,5 @@
 const test = require("ava");
-const capitalize = require("../src/Util/Capitalize");
+const capitalize = require("../../src/Util/Capitalize");
 
 test("capitalize", (t) => {
   t.is(capitalize("hello"), "Hello");

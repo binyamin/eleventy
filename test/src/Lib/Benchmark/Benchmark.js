@@ -1,5 +1,5 @@
 const test = require("ava");
-const Benchmark = require("../src/Benchmark");
+const Benchmark = require("../../../src/Benchmark");
 
 function between(t, value, lowerBound, upperBound) {
   t.truthy(value >= lowerBound);

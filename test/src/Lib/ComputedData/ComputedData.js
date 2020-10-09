@@ -1,5 +1,5 @@
 const test = require("ava");
-const ComputedData = require("../src/ComputedData");
+const ComputedData = require("../../../src/ComputedData");
 
 test("Basic get/set", async (t) => {
   let cd = new ComputedData();

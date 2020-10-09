@@ -1,5 +1,5 @@
 const test = require("ava");
-const Merge = require("../src/Util/Merge");
+const Merge = require("../../src/Util/Merge");
 
 test("Shallow Merge", (t) => {
   t.deepEqual(Merge({}, {}), {});

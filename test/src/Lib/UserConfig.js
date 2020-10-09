@@ -1,5 +1,5 @@
 const test = require("ava");
-const UserConfig = require("../src/UserConfig");
+const UserConfig = require("../../src/UserConfig");
 
 test("Template Formats", (t) => {
   let cfg = new UserConfig();

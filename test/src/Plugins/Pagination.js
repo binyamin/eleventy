@@ -1,7 +1,7 @@
 const test = require("ava");
-const Template = require("../src/Template");
-const TemplateData = require("../src/TemplateData");
-const Pagination = require("../src/Plugins/Pagination");
+const Template = require("../../src/Template");
+const TemplateData = require("../../src/TemplateData");
+const Pagination = require("../../src/Plugins/Pagination");
 
 test("No data passed to pagination", async (t) => {
   let tmpl = new Template(

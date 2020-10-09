@@ -1,8 +1,8 @@
 const test = require("ava");
-const url = require("../src/Filters/Url.js");
+const url = require("../../src/Filters/Url.js");
 
 test("Test url filter without passing in pathPrefix", (t) => {
-  let projectConfig = require("../src/Config").getConfig();
+  let projectConfig = require("../../src/Config").getConfig();
   t.is(projectConfig.pathPrefix, "/");
 
   t.is(url("test"), "test");

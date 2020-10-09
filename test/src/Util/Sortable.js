@@ -1,6 +1,6 @@
 const test = require("ava");
 const { DateTime } = require("luxon");
-const Sortable = require("../src/Util/Sortable");
+const Sortable = require("./Sortable");
 
 test("get Sort Function", (t) => {
   let s = new Sortable();

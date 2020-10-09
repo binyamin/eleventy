@@ -1,14 +1,14 @@
 const test = require("ava");
 const fs = require("fs-extra");
 const pretty = require("pretty");
-const Template = require("../src/Template");
-const TemplateData = require("../src/TemplateData");
-const EleventyExtensionMap = require("../src/EleventyExtensionMap");
-const EleventyErrorUtil = require("../src/EleventyErrorUtil");
-const TemplateContentPrematureUseError = require("../src/Errors/TemplateContentPrematureUseError");
-const normalizeNewLines = require("./Util/normalizeNewLines");
+const Template = require("../../../src/Template");
+const TemplateData = require("../../../src/TemplateData");
+const EleventyExtensionMap = require("../../../src/EleventyExtensionMap");
+const EleventyErrorUtil = require("../../../src/EleventyErrorUtil");
+const TemplateContentPrematureUseError = require("../../../src/Errors/TemplateContentPrematureUseError");
+const normalizeNewLines = require("../../test-utils/normalizeNewLines");
 
-const templateConfig = require("../src/Config");
+const templateConfig = require("../../../src/Config");
 const config = templateConfig.getConfig();
 
 const getNewTemplate = require("./_getNewTemplateForTests");

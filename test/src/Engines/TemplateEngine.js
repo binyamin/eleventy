@@ -1,5 +1,5 @@
 const test = require("ava");
-const TemplateEngine = require("../src/Engines/TemplateEngine");
+const TemplateEngine = require("../../../src/Engines/TemplateEngine");
 
 test("Unsupported engine", async (t) => {
   t.is(new TemplateEngine("doesnotexist").getName(), "doesnotexist");

@@ -1,5 +1,5 @@
-const EleventyExtensionMap = require("../src/EleventyExtensionMap");
-const Template = require("../src/Template");
+const EleventyExtensionMap = require("../../src/EleventyExtensionMap");
+const Template = require("../../src/Template");
 
 module.exports = function getNewTemplate(
   path,

@@ -1,6 +1,6 @@
 const test = require("ava");
 const path = require("path");
-const deleteRequireCache = require("../src/Util/DeleteRequireCache");
+const deleteRequireCache = require("../../src/Util/DeleteRequireCache");
 const template = require("./stubs/function.11ty");
 
 test("deleteRequireCache", (t) => {

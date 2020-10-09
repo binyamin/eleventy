@@ -1,5 +1,5 @@
 const test = require("ava");
-const normalizeNewLines = require("./Util/normalizeNewLines");
+const normalizeNewLines = require("./normalizeNewLines");
 
 test("normalizeNewLines", (t) => {
   t.is(normalizeNewLines("\n"), "\n");
