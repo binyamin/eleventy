@@ -1,6 +1,10 @@
 # Tests
 
-## Folder Structure Notes
+## Folder Structure
+
+- The **fixtures** folder contains sample data, so there's something to test.
+- The **source (src)** folder contains the actual test files. The subfolders emulate the real source folder's contents.
+- **Test-Utils** stores any reusable functions for the test files. Each file has a corresponding test file.
 
 ### Extra
 
