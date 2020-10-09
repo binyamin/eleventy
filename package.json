@@ -61,10 +61,11 @@
   "ava": {
     "failFast": false,
     "files": [
-      "./test/*.js"
+      "./test/**/*.js"
     ],
     "ignoredByWatcher": [
-      "./test/stubs/**/*"
+      "./test/fixtures/**/*",
+      "./test/Test-Utils/normalizeNewLines.js"
     ]
   },
   "lint-staged": {
